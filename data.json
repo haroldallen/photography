@@ -50,8 +50,8 @@
         "thumbnail": "5.jpg",
         "date": 1717718400000,
         "length": 6,
-        "camera": "BeamNG Photo Mode",
-        "lens": "-"
+        "camera": null,
+        "lens": null
     },
     {
         "type": "landscape",
