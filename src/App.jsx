@@ -18,8 +18,16 @@ export default function App({ viewing, setViewing }) {
         { data && data.length > 0 ? <>
             { !viewing ? data.map((item, i) => <Thumbnail key={i} setViewing={setViewing} {...item} />) : <></> }
             { viewing ? <>
-                <h1 className="title">{viewing.title}</h1>
-                <p className="date">{moment(viewing.date).format("dddd, Do MMMM YYYY")}</p>
+                <div className="jsb">
+                    <div>
+                        <h1 className="title">{viewing.title}</h1>
+                        <p className="date">{moment(viewing.date).format("dddd, Do MMMM YYYY")}</p>
+                    </div>
+                    {viewing.camera ? <div className="specs">
+                        <p><span>Camera:</span> {viewing.camera}</p>
+                        <p><span>Lens:</span> {viewing.lens}</p>
+                    </div> : <div></div> }
+                </div>
                 <div className="list">
                     { [...Array(viewing.length).keys()].map((i) => <img key={i} className={"image "+(viewing.type)} src={`/photography/${viewing.date}/${i}.jpg`} />) }
                 </div>
