@@ -59,12 +59,19 @@ header .left .title {
     text-decoration: none;
 }
 
+footer {
+    padding: 12px 24px;
+    background-color: var(--thumbnail-background);
+    width: 100%;
+}
+
 .content {
     display: flex;
     flex-direction: column;
     max-width: 1396px;
     width: 100%;
     padding: 24px 48px;
+    min-height: calc(100vh - 127px);
 }
 .content.list, .content .list {
     flex-direction: row;
@@ -110,9 +117,3 @@ header .left .title {
     font-family: var(--font-family);
 }
 .thumbnail div span { opacity: 0.5; }
-
-footer {
-    padding: 12px 24px;
-    background-color: var(--thumbnail-background);
-    width: 100%;
-}
