@@ -110,3 +110,9 @@ header .left .title {
     font-family: var(--font-family);
 }
 .thumbnail div span { opacity: 0.5; }
+
+footer {
+    padding: 12px 24px;
+    background-color: var(--thumbnail-background);
+    width: 100%;
+}
