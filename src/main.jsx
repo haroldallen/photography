@@ -22,6 +22,6 @@ function Main() {
         <div className={"content "+(viewing?"viewing":"list")}>
             <App viewing={viewing} setViewing={setViewing} />
         </div>
-        <footer>&copy; Copyright {new Date().getFullYear()} Harry Allen. All rights reserved.</footer>
+        <footer>&copy; Copyright {new Date().getFullYear()} Harold Allen. All rights reserved.</footer>
     </>;
 }
