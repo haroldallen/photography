@@ -65,7 +65,7 @@
     {
         "type": "landscape",
         "title": "Grantchester",
-        "thumbnail": "1.jpg",
+        "thumbnail": "3.jpg",
         "date": 1718409600000,
         "length": 11,
         "camera": "Canon EOS 2000D",
@@ -86,6 +86,15 @@
         "thumbnail": "0.jpg",
         "date": 1718668800000,
         "length": 3,
+        "camera": "Canon EOS 2000D",
+        "lens": "Sigma 18-50mm f/2.8"
+    },
+    {
+        "type": "landscape",
+        "title": "Town low light",
+        "thumbnail": "1.jpg",
+        "date": 1720825200000,
+        "length": 6,
         "camera": "Canon EOS 2000D",
         "lens": "Sigma 18-50mm f/2.8"
     }
