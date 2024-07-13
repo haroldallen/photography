@@ -91,6 +91,15 @@
     },
     {
         "type": "landscape",
+        "title": "BeamNG Photography #2",
+        "thumbnail": "0.jpg",
+        "date": 1719097200000,
+        "length": 5,
+        "camera": null,
+        "lens": null
+    },
+    {
+        "type": "landscape",
         "title": "Town low light",
         "thumbnail": "1.jpg",
         "date": 1720825200000,
