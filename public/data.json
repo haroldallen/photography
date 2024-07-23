@@ -106,5 +106,14 @@
         "length": 6,
         "camera": "Canon EOS 2000D",
         "lens": "Sigma 18-50mm f/2.8"
+    },
+    {
+        "type": "landscape",
+        "title": "RIAT 2024",
+        "thumbnail": "0.jpg",
+        "date": 1721520000000,
+        "length": 19,
+        "camera": "Canon EOS 2000D",
+        "lens": "Canon 55-250mm f/4-5.6"
     }
 ]
