@@ -19,7 +19,7 @@ function Main() {
             </div>
             <div>
                 <a href="../contact.html">
-                    <img src="../assets/icons/mail.svg" alt="Contact" />
+                    <img src="../assets/icons/mail.svg" alt="Contact" height="18" />
                 </a>
             </div>
         </header>
