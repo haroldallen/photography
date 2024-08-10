@@ -17,7 +17,11 @@ function Main() {
                 <a className="logo" href="/">ALLEN</a><span>/</span>
                 <a className="title" href="/photography">photography</a>
             </div>
-            <div></div>
+            <div>
+                <a href="../contact.html">
+                    <img src="../assets/icons/mail.svg" alt="Contact" />
+                </a>
+            </div>
         </header>
         <div className={"content "+(viewing?"viewing":"list")}>
             <App viewing={viewing} setViewing={setViewing} />
