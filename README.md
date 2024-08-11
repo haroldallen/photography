@@ -1,4 +1,5 @@
-# Airrec
+> [!WARNING]
+> This project has been archived and the new version has been merged into the main portfolio (haroldallen/haroldallen.github.io)
 
-Air recognition app built in react + vite
-Website: https://haroldallen.github.io/airrec
+Photography portfolio  
+View: https://haroldallen.github.io/photography
